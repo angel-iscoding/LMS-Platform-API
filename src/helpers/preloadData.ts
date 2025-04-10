@@ -6,26 +6,18 @@ const preloadUsers = [
     {
         name: "Angelito",
         email: "Angelito@gmail.com",
-        birthdate: "2024-06-03",
-        nDni: 101231231
     },
     {
         name: "Angelito",
-        email: "Angelito@gmail.com",
-        birthdate: "2024-06-03",
-        nDni: 101231231
+        email: "Angelito1@gmail.com",
     },
     {
         name: "Angelito",
-        email: "Angelito@gmail.com",
-        birthdate: "2024-06-03",
-        nDni: 101231231
+        email: "Angelito2@gmail.com",
     },
     {
         name: "Angelito",
-        email: "Angelito@gmail.com",
-        birthdate: "2024-06-03",
-        nDni: 101231231
+        email: "Angelito3@gmail.com",
     }
 ];
 

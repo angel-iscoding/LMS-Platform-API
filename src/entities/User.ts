@@ -19,14 +19,6 @@ export class User {
         length: 100
     })
     email: string;
-    
-    @Column({
-        length: 20
-    }) 
-    birthdate: string;
-    
-    @Column("integer")
-    nDni: number;
 
     @OneToOne(() => Credential)
     @JoinColumn()   

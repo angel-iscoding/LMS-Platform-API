@@ -31,7 +31,7 @@ export const registerUser = async (req:Request, res:Response) => {
             res.status(400).json({ error: "El nombre de usuario registrado ya existe, por favor, cambialo a uno no existente" });
         } else {
             const newCredential = await createCredential({ username, password });
-            const newUser: User = await registerUserService(newCredential, { name, email, birthdate, nDni });
+            const newUser: User = await registerUserService(newCredential, { name, email });
             res.status(201).json({ newUser });
         }
     } catch (error) {
